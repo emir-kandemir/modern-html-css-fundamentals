@@ -1,11 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Sandbox</title>
+    <style>
+      .blob {
+        width: 500px;
+      }
+    </style>
   </head>
   <body>
     <h1>HTML & CSS Sandbox - SVG Element</h1>
+
+    <svg width="300" height="300">
+      <circle
+        cx="90"
+        cy="100"
+        r="80"
+        fill="blue"
+        stroke="black"
+        stroke-width="5"
+      ></circle>
+      <text x="47" y="100" font-size="40" font-family="Verdana" fill="white">
+        SVG
+      </text>
+    </svg>
+    <br /><br />
+
+    <svg class="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path
+        fill="#8A3FFC"
+        d="M62.5,-19.6C65.8,-10.4,42.5,8,20.1,23.3C-2.3,38.6,-24,50.7,-31.1,45C-38.3,39.3,-31,15.8,-23.4,0.6C-15.8,-14.5,-7.9,-21.3,10.9,-24.9C29.7,-28.4,59.3,-28.7,62.5,-19.6Z"
+        transform="translate(100 100)"
+      />
+    </svg>
   </body>
 </html>
