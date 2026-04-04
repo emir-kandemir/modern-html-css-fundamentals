@@ -1,3 +1,23 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+/* Even is id refer is on top the color will be green because of the specificity */
+#specificity {
+  color: green;
+}
+
+/* Class element specificity weight is higher than just referring an element declaration */
+.specificity {
+  color: purple;
+}
+
+/* When declaring a style most recent one overrides the before that */
+h1 {
+  color: blue;
+}
+
+/* Important Flag is much higher specificity even than inline styling but do not use that much */
+h1 {
+  color: red !important;
+}
