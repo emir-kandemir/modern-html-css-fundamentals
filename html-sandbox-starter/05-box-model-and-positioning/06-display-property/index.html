@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,8 +7,10 @@
     <title>HTML & CSS Sandbox</title>
   </head>
   <body>
-    <h2>Set me to display: none</h2>
-    <h2>Set me to visibility: hidden</h2>
+    <h2 class="none-el">Set me to display: none</h2>
+    <h2 class="hidden-el">Set me to visibility: hidden</h2>
+
+    <!-- Block level elements by default-->
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates id
       adipisci laboriosam qui blanditiis
@@ -17,5 +19,9 @@
     </p>
     <p>Lorem, ipsum dolor.</p>
     <p>Lorem, ipsum dolor.</p>
+
+    <!-- a tags inline elements by default-->
+    <a href="#">Link1</a>
+    <a href="#">Link2</a>
   </body>
 </html>

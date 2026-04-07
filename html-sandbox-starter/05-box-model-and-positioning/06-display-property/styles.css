@@ -1,3 +1,42 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+/* It will work nothing was there type */
+.none-el {
+  display: none;
+}
+
+/* It will just hide the element and spacing stays the same unlike none */
+.hidden-el {
+  visibility: hidden;
+}
+
+/* You can always transform something to something like block level to inline element for paragpraphs */
+/* p {
+  display: inline;
+}
+
+a {
+  display: block;
+} */
+
+a {
+  /* If we display as block margin, width and height also works. */
+  /* display: block; */
+
+  /* You can also inline-block */
+  /* Inline blocks is good for buttons if you want add 2 buttons side by side you can use it */
+  display: inline-block;
+
+  background: lightblue;
+  border: blue solid 1px;
+  padding: 10px;
+
+  /* If it is a inline element you can't add top-bottom margin you can just left and right */
+  margin: 20px 10px;
+
+  /* Width and height also not working */
+  width: 200px;
+  height: 100px;
+}
