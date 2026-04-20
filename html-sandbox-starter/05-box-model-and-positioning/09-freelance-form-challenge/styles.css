@@ -5,6 +5,52 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #f4f4f4;
+}
+
+.container {
+  width: 400px;
+  margin: 100px auto;
+}
+
+.card {
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 60px 50px;
+}
+
+.card h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.card p {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.card .form-group {
+  margin-bottom: 10px;
+}
+
+.card input[type="text"] {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: large;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.card button {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: large;
+  color: white;
+  background-color: coral;
+  border: none;
+  cursor: pointer;
 }
